@@ -1,0 +1,88 @@
+/* navbar styling */
+.navbar-brand {
+    background: #40B5BC;
+    border-color: #40B5BC;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+#lat-text {
+    color: white;
+}
+
+.navbar {
+    background:  #FFFFFF;
+    color: #40B5BC;
+}
+
+/* home page images */
+#home-img {
+    height: 150px;
+    width: 150px;
+}
+
+/* home page section styling */
+#home-section {
+    background: white;
+    padding: 40px;
+}
+
+/* other pages' section styling */
+#other-section {
+    background: white;
+    padding: 20px;
+}
+
+/* active images */
+#active-img {
+    padding: 2px;
+    border: 2px solid #40B5BC;
+    height: 150px;
+    width: 150px;
+}
+
+/* body styling */
+body {
+    background: #ededed;
+    margin-bottom: 5em;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #40B5BC;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #40B5BC;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #40B5BC;
+}
+
+/* define styles that will only appear if screen is under 600 px wide */
+@media (max-width: 992px) {
+    .navbar {
+      background:#40B5BC;
+      color: #FFFFFF;
+    }
+    
+    body {
+        background-color: #FFFFFF;
+    }
+
+    h1 {
+        font-size: x-large;
+    }
+
+    h2 {
+        font-size: x-large;
+    }
+  }
